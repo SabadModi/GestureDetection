@@ -19,10 +19,20 @@
 
 # **How To Use**
 1. After starting the program, you need to assign each gesture with the specified function/command
-2. You can find my Reccomended Settings here
+2. You can find my Reccomended Settings [here]()
 3. Preferably use in areas with light
 4. Do not put your hands too close or too far away from your computer screen else the program will be unable to detect your gestures/hands
 5. Lastly, Have fun🙂!
+
+# **Reccomended Settings(In Order)**
+1. Brightness(8)
+2. Screenshot(4)
+3. Volume Down(6)
+4. Enter Button(3)
+5. Space Button(2)
+6. Switch Windows(1)
+7. Backspace(7)
+8. Volume Up(5)
 
 # **Demo**
 CLick on me for [DEMO](https://drive.google.com/file/d/1yk4rLiFsZhrm_vIEkg3GyygiS_048tvS/view?usp=sharing)
