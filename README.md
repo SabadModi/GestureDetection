@@ -1,7 +1,7 @@
 # **Gesture Detection using MEDIAPIPE and OPENCV**
 
 # **Requirements**
-1. Python 3.7.9(For MEDIAPIPE)
+1. Python 3.7.9(For **MEDIAPIPE**)
 2. OpenCV
 3. PyautoGUI
 4. Pynput
@@ -35,7 +35,7 @@
 8. Volume Up(5)
 
 # **Demo**
-CLick on me for [DEMO](https://drive.google.com/file/d/1yk4rLiFsZhrm_vIEkg3GyygiS_048tvS/view?usp=sharing)
+Click on me for [DEMO](https://drive.google.com/file/d/1yk4rLiFsZhrm_vIEkg3GyygiS_048tvS/view?usp=sharing)
 
 # **References**
 1. Murtaza's Workshop for AI and Robotics - The tutorial for controlling the cursor really helped
