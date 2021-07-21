@@ -19,7 +19,7 @@
 
 # **How To Use**
 1. After starting the program, you need to assign each gesture with the specified function/command
-2. You can find my Reccomended Settings [here]()
+2. You can find my Reccomended Settings **`[here](https://github.com/SabadModi/GestureDetection/blob/main/README.md#reccomended-settingsin-order)`**
 3. Preferably use in areas with light
 4. Do not put your hands too close or too far away from your computer screen else the program will be unable to detect your gestures/hands
 5. Lastly, Have fun🙂!
