@@ -2,7 +2,7 @@
 
 # **Requirements**
 1. Python 3.7.9(For MEDIAPIPE)
-2. opencv
+2. OpenCV
 3. PyautoGUI
 4. Pynput
 5. PIL
@@ -15,7 +15,7 @@
 4. Enter/Space/Backspace
 5. Switch between windows
 6. Customize commands for each gesture
-7. On-Screen Virtual Keyboard - **IN PROGRESS**
+7. On-Screen Virtual Keyboard - **`IN PROGRESS`**
 
 # **How To Use**
 1. After starting the program, you need to assign each gesture with the specified function/command
@@ -30,5 +30,5 @@ CLick on me for [DEMO](https://drive.google.com/file/d/1yk4rLiFsZhrm_vIEkg3Gyygi
 # **References**
 1. Murtaza's Workshop for AI and Robotics - The tutorial for controlling the cursor really helped
 2. [MEDIAPIPE DOCS](https://google.github.io/mediapipe/solutions/hands.html)
-3. Stackoverflow
+3. StackOverflow
 4. Youtube
