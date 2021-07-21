@@ -9,6 +9,7 @@ mpDraw = mp.solutions.drawing_utils
 
 label = []
 
+#From MEDIAPIPE DOCS
 
 class HandDetector:
     def __init__(self, max_num_hands=3 , min_detection_confidence=0.7, min_tracking_confidence=0.8):
@@ -19,7 +20,8 @@ class HandDetector:
         self.maxHands = max_num_hands
         self.hands = mpHands.Hands(max_num_hands=max_num_hands, min_detection_confidence=min_detection_confidence,
                                    min_tracking_confidence=min_tracking_confidence)
-
+    
+    #From MEDIAPIPE DOCS
     def findHandLandMarks(self, image, handNumber=0, draw=False):
         originalImage = image
         image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)  # mediapipe needs RGB
