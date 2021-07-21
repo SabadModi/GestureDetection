@@ -47,7 +47,8 @@ class HandDetector:
                 mpDraw.draw_landmarks(originalImage, hand, mpHands.HAND_CONNECTIONS)
 
         return landMarkList
-
+    
+    #Taken from Murtaza Robotics Lab for moving the cursor
     def findHands(self, img, draw=True):
         imgRGB = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
         self.results = self.hands.process(imgRGB)
@@ -60,7 +61,8 @@ class HandDetector:
                                                self.mpHands.HAND_CONNECTIONS)
 
         return img
-
+    
+    #Taken from Murtaza Robotics Lab for moving the cursor
     def findDistance(self, p1, p2, img, draw=True,r=15, t=3):
         x1, y1 = self.lmList[p1][1:]
         x2, y2 = self.lmList[p2][1:]
@@ -74,7 +76,8 @@ class HandDetector:
         length = math.hypot(x2 - x1, y2 - y1)
 
         return length, img, [x1, y1, x2, y2, cx, cy]
-
+    
+    #Taken from Murtaza Robotics Lab for moving the cursor
     def findPosition(self, img, handNo=0, draw=True):
         xList = []
         yList = []
@@ -102,7 +105,8 @@ class HandDetector:
                               (0, 255, 0), 2)
 
         return self.lmList, bbox
-
+    
+    #Taken from Murtaza Robotics Lab for moving the cursor
     def fingersUp(self):
         fingers = []
         # Thumb
@@ -118,7 +122,5 @@ class HandDetector:
                 fingers.append(1)
             else:
                 fingers.append(0)
-
-        # totalFingers = fingers.count(1)
 
         return fingers
